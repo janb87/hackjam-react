@@ -8,7 +8,7 @@ class Menu extends Component {
         this.selectTab = this.selectTab.bind(this);
     }
 
-    getFilterItems(filters) {
+    getMenuItems(filters) {
         return filters.map(filter => {
             return (<li key={ filter.category } onClick={ this.selectTab.bind(null, filter.category) } style={{ display: 'inline-style' }}>
                 <a className={filter.selected ? 'selected' : ''} href="#0">{filter.category}</a>
@@ -24,7 +24,7 @@ class Menu extends Component {
                         <li className="placeholder">
                             <a data-type="all" href="#0">All</a>
                         </li>
-                        {this.getFilterItems(this.props.filters) }
+                        {this.getMenuItems(this.props.filters) }
                     </ul>
                 </div>
             </div>
