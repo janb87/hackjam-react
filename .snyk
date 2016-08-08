@@ -1,0 +1,38 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:hawk:20160119':
+    - hackages > surge > request > hawk:
+        patched: '2016-08-08T20:02:16.419Z'
+  'npm:minimatch:20160620':
+    - hackages > protractor > jasmine > glob > minimatch:
+        patched: '2016-08-08T20:02:16.419Z'
+    - hackages > surge > fstream-ignore > minimatch:
+        patched: '2016-08-08T20:02:16.419Z'
+    - hackages > karma-coverage > istanbul > fileset > minimatch:
+        patched: '2016-08-08T20:02:16.419Z'
+    - hackages > mocha > glob > minimatch:
+        patched: '2016-08-08T20:02:16.419Z'
+  'npm:negotiator:20160616':
+    - hackages > karma > socket.io > engine.io > accepts > negotiator:
+        patched: '2016-08-08T20:02:16.419Z'
+  'npm:request:20160119':
+    - hackages > protractor > request:
+        patched: '2016-08-08T20:02:16.419Z'
+    - hackages > surge > request:
+        patched: '2016-08-08T20:02:16.419Z'
+  'npm:tar:20151103':
+    - hackages > surge > tar:
+        patched: '2016-08-08T20:02:16.419Z'
+    - hackages > surge > tar.gz > tar:
+        patched: '2016-08-08T20:02:16.419Z'
+  'npm:tough-cookie:20160722':
+    - hackages > npm > request > tough-cookie:
+        patched: '2016-08-08T20:02:16.419Z'
+    - hackages > protractor > request > tough-cookie:
+        patched: '2016-08-08T20:02:16.419Z'
+  'npm:ws:20160624':
+    - hackages > karma > socket.io > engine.io > ws:
+        patched: '2016-08-08T20:02:16.419Z'
+    - hackages > karma > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2016-08-08T20:02:16.419Z'

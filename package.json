@@ -7,7 +7,9 @@
     "run:browser": "hackages live",
     "run:watch": "hackages watch",
     "prestart": "npm i",
-    "start": "npm-run-all --parallel run:watch run:browser"
+    "start": "npm-run-all --parallel run:watch run:browser",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "react, hackages, hackjam"
@@ -17,7 +19,8 @@
   "dependencies": {
     "hackages": "0.0.8",
     "react": "^15.0.2",
-    "react-dom": "^15.0.2"
+    "react-dom": "^15.0.2",
+    "snyk": "^1.18.0"
   },
   "devDependencies": {
     "npm-run-all": "^2.1.1"
@@ -30,5 +33,6 @@
     "url": "https://github.com/hackages/hackjam-react/issues"
   },
   "homepage": "https://github.com/hackages/hackjam-react#readme",
-  "description": "this application does'nt work, fix it please!!"
+  "description": "this application does'nt work, fix it please!!",
+  "snyk": true
 }
