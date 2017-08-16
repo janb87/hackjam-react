@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.0
+version: v1.7.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -32,3 +32,7 @@ patch:
         patched: '2017-05-22T22:45:25.699Z'
     - hackages > mocha-bamboo-reporter > mocha > debug > ms:
         patched: '2017-05-22T22:45:25.699Z'
+    - hackages > phantomjs-prebuilt > extract-zip > debug > ms:
+        patched: '2017-08-14T22:45:22.092Z'
+    - hackages > karma-phantomjs-launcher > phantomjs-prebuilt > extract-zip > debug > ms:
+        patched: '2017-08-14T22:45:22.092Z'
