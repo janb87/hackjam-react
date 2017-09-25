@@ -36,3 +36,6 @@ patch:
         patched: '2017-08-14T22:45:22.092Z'
     - hackages > karma-phantomjs-launcher > phantomjs-prebuilt > extract-zip > debug > ms:
         patched: '2017-08-14T22:45:22.092Z'
+  'npm:tough-cookie:20170905':
+    - hackages > protractor > request > tough-cookie:
+        patched: '2017-09-25T22:45:22.820Z'
