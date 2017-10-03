@@ -36,3 +36,32 @@ patch:
         patched: '2017-08-14T22:45:22.092Z'
     - hackages > karma-phantomjs-launcher > phantomjs-prebuilt > extract-zip > debug > ms:
         patched: '2017-08-14T22:45:22.092Z'
+  'npm:debug:20170905':
+    - hackages > karma > socket.io > engine.io > debug:
+        patched: '2017-10-02T22:45:24.234Z'
+    - hackages > mocha > debug:
+        patched: '2017-10-02T22:45:24.234Z'
+    - hackages > karma-phantomjs-launcher > phantomjs-prebuilt > extract-zip > debug:
+        patched: '2017-10-02T22:45:24.234Z'
+    - hackages > karma > socket.io > socket.io-parser > debug:
+        patched: '2017-10-02T22:45:24.234Z'
+    - hackages > karma > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2017-10-02T22:45:24.234Z'
+    - hackages > karma > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2017-10-02T22:45:24.234Z'
+    - hackages > karma > socket.io > debug:
+        patched: '2017-10-02T22:45:24.234Z'
+    - hackages > phantomjs-prebuilt > extract-zip > debug:
+        patched: '2017-10-02T22:45:24.234Z'
+    - hackages > karma > socket.io > socket.io-adapter > debug:
+        patched: '2017-10-02T22:45:24.234Z'
+    - hackages > karma > socket.io > socket.io-client > debug:
+        patched: '2017-10-02T22:45:24.234Z'
+    - hackages > karma > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2017-10-02T22:45:24.234Z'
+    - hackages > mocha-bamboo-reporter > mocha > debug:
+        patched: '2017-10-02T22:45:24.234Z'
+    - hackages > live-server > connect > debug:
+        patched: '2017-10-02T22:45:24.234Z'
+    - hackages > live-server > connect > finalhandler > debug:
+        patched: '2017-10-02T22:45:24.234Z'
