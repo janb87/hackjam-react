@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.12.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -65,3 +65,20 @@ patch:
         patched: '2017-10-02T22:45:24.234Z'
     - hackages > live-server > connect > finalhandler > debug:
         patched: '2017-10-02T22:45:24.234Z'
+  'npm:hoek:20180212':
+    - hackages > protractor > request > hawk > hoek:
+        patched: '2018-06-25T01:06:33.967Z'
+    - hackages > protractor > request > hawk > boom > hoek:
+        patched: '2018-06-25T01:06:33.967Z'
+    - hackages > protractor > request > hawk > sntp > hoek:
+        patched: '2018-06-25T01:06:33.967Z'
+    - hackages > protractor > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-25T01:06:33.967Z'
+    - hackages > npm > request > hawk > hoek:
+        patched: '2018-06-25T01:06:33.967Z'
+    - hackages > npm > request > hawk > boom > hoek:
+        patched: '2018-06-25T01:06:33.967Z'
+    - hackages > npm > request > hawk > sntp > hoek:
+        patched: '2018-06-25T01:06:33.967Z'
+    - hackages > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-25T01:06:33.967Z'
