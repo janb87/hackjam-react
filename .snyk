@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.12.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -65,3 +65,13 @@ patch:
         patched: '2017-10-02T22:45:24.234Z'
     - hackages > live-server > connect > finalhandler > debug:
         patched: '2017-10-02T22:45:24.234Z'
+  'npm:mime:20170907':
+    - hackages > surge > request > form-data > mime:
+        patched: '2018-07-02T01:14:19.862Z'
+  'npm:tunnel-agent:20170305':
+    - hackages > protractor > request > tunnel-agent:
+        patched: '2018-07-02T01:14:19.862Z'
+    - hackages > surge > request > tunnel-agent:
+        patched: '2018-07-02T01:14:19.862Z'
+    - hackages > npm > request > tunnel-agent:
+        patched: '2018-07-02T01:14:19.862Z'
