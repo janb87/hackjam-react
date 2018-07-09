@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.12.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -65,3 +65,11 @@ patch:
         patched: '2017-10-02T22:45:24.234Z'
     - hackages > live-server > connect > finalhandler > debug:
         patched: '2017-10-02T22:45:24.234Z'
+  'npm:http-signature:20150122':
+    - hackages > surge > request > http-signature:
+        patched: '2018-07-09T01:11:24.671Z'
+  'npm:lodash:20180130':
+    - hackages > karma > lodash:
+        patched: '2018-07-09T01:11:24.671Z'
+    - hackages > karma-webpack > lodash:
+        patched: '2018-07-09T01:11:24.671Z'
