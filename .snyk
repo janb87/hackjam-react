@@ -73,3 +73,17 @@ patch:
         patched: '2018-07-09T01:11:24.671Z'
     - hackages > karma-webpack > lodash:
         patched: '2018-07-09T01:11:24.671Z'
+  'npm:minimatch:20160620':
+    - hackages > mocha > glob > minimatch:
+        patched: '2018-10-29T01:17:30.670Z'
+    - hackages > protractor > jasmine > glob > minimatch:
+        patched: '2018-10-29T01:17:30.670Z'
+    - hackages > surge > fstream-ignore > minimatch:
+        patched: '2018-10-29T01:17:30.670Z'
+  'npm:tunnel-agent:20170305':
+    - hackages > npm > request > tunnel-agent:
+        patched: '2018-10-29T01:17:30.670Z'
+    - hackages > protractor > request > tunnel-agent:
+        patched: '2018-10-29T01:17:30.670Z'
+    - hackages > surge > request > tunnel-agent:
+        patched: '2018-10-29T01:17:30.670Z'
