@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.13.3
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -73,3 +73,53 @@ patch:
         patched: '2018-07-09T01:11:24.671Z'
     - hackages > karma-webpack > lodash:
         patched: '2018-07-09T01:11:24.671Z'
+  'npm:hawk:20160119':
+    - hackages > surge > request > hawk:
+        patched: '2019-04-08T12:14:35.741Z'
+  'npm:hoek:20180212':
+    - hackages > protractor > request > hawk > boom > hoek:
+        patched: '2019-04-08T12:14:35.741Z'
+    - hackages > npm > request > hawk > sntp > hoek:
+        patched: '2019-04-08T12:14:35.741Z'
+    - hackages > npm > request > hawk > hoek:
+        patched: '2019-04-08T12:14:35.741Z'
+    - hackages > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-08T12:14:35.741Z'
+    - hackages > protractor > request > hawk > hoek:
+        patched: '2019-04-08T12:14:35.741Z'
+    - hackages > npm > request > hawk > boom > hoek:
+        patched: '2019-04-08T12:14:35.741Z'
+    - hackages > protractor > request > hawk > sntp > hoek:
+        patched: '2019-04-08T12:14:35.741Z'
+    - hackages > protractor > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-08T12:14:35.741Z'
+  'npm:mime:20170907':
+    - hackages > surge > request > form-data > mime:
+        patched: '2019-04-08T12:14:35.741Z'
+  'npm:minimatch:20160620':
+    - hackages > mocha > glob > minimatch:
+        patched: '2019-04-08T12:14:35.741Z'
+    - hackages > protractor > jasmine > glob > minimatch:
+        patched: '2019-04-08T12:14:35.741Z'
+    - hackages > surge > fstream-ignore > minimatch:
+        patched: '2019-04-08T12:14:35.741Z'
+  'npm:request:20160119':
+    - hackages > surge > request:
+        patched: '2019-04-08T12:14:35.741Z'
+    - hackages > protractor > request:
+        patched: '2019-04-08T12:14:35.741Z'
+  'npm:tar:20151103':
+    - hackages > surge > tar:
+        patched: '2019-04-08T12:14:35.741Z'
+    - hackages > surge > tar.gz > tar:
+        patched: '2019-04-08T12:14:35.741Z'
+  'npm:tough-cookie:20170905':
+    - hackages > protractor > request > tough-cookie:
+        patched: '2019-04-08T12:14:35.741Z'
+  'npm:tunnel-agent:20170305':
+    - hackages > protractor > request > tunnel-agent:
+        patched: '2019-04-08T12:14:35.741Z'
+    - hackages > npm > request > tunnel-agent:
+        patched: '2019-04-08T12:14:35.741Z'
+    - hackages > surge > request > tunnel-agent:
+        patched: '2019-04-08T12:14:35.741Z'
