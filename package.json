@@ -21,7 +21,7 @@
     "hackages": "0.0.8",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
-    "snyk": "^1.88.2"
+    "snyk": "^1.317.0"
   },
   "devDependencies": {
     "npm-run-all": "^2.1.1"
