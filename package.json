@@ -19,8 +19,8 @@
   "license": "MIT",
   "dependencies": {
     "hackages": "0.0.8",
-    "react": "^15.0.2",
-    "react-dom": "^15.0.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "snyk": "^1.88.2"
   },
   "devDependencies": {
